@@ -43,7 +43,9 @@ next = wait.until(EC.presence_of_element_located((By.XPATH, '//a[@class="n"]')))
 browser.save_screenshot('screenshot.png')
 
 # 滚动到页面底部
-browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+# browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+# 平滑滚动到底部
+browser.execute_script("window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});")
 
 # 休眠2秒
 time.sleep(2)
