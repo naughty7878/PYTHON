@@ -133,8 +133,8 @@ form_data = {
     '__VIEWSTATE': '',
     '__VIEWSTATEGENERATOR': 'C93BE1AE',
     'from': 'http://www.gushiwen.cn/user/collect.aspx',
-    'email': 'naughty7878@163.com',
-    'pwd': 'qq657370713967',
+    'email': 'xxx@qq.com',
+    'pwd': '123456',
     'code': code_name,
     'denglu': '登录'
 }
